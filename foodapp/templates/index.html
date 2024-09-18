@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <div class="max-w-screen-lg mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- รายการที่ 1 -->
+        <div class="rounded-lg overflow-hidden bg-white flex flex-col items-center justify-between">
+            <div class="flex flex-col items-center px-6 py-8">
+                <img class="object-cover object-center w-48 h-48 rounded-full mb-4 mt-20" src="{% static 'image/card-06.jpg' %}" alt="ผัดไทยหมื่นปีห่อใบบัว">
+                <h1 class="text-2xl text-blacky-600 mb-4 font-mitr">ผัดไทยหมื่นปีห่อใบบัว</h1>
+                <p class="text-lg mb-4 text-black-600 font-sarabun text-center">
+                    ผัดไทยหมื่นปีห่อใบบัว เป็นอาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพ ของจังหวัดอุบลราชธานี มีความโดดเด่นและมีเอกลักษณ์ ของความเป็นไทย เป็นอาหารแห่งความมีคุณค่าทางโภชนาการ และสรรพคุณทางยาจากพืชผักสมุนไพรพื้นบ้านที่มีประโยชน์นานาชนิด ที่ช่วยเสริมภูมิต้านทานและป้องกันโรค
+                </p>
+                <a href="/food1/" class="bg-gray-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-purple-700 transition duration-300 ease-in-out font-sarabun">เรียนรู้เพิ่มเติม >> </a>
+            </div>
+        </div>
+        <!-- รายการที่ 2 -->
+        <div class="rounded-lg overflow-hidden bg-white flex flex-col items-center justify-between">
+            <div class="flex flex-col items-center px-6 py-8">
+                <img class="object-cover object-center w-48 h-48 rounded-full mb-4 mt-20" src="{% static 'image/card-02.jpg' %}" alt="ปลาส้มทรงเครื่องสมุนไพร">
+                <h3 class="text-2xl text-black-600 mb-4 font-mitr">ปลาส้มทรงเครื่องสมุนไพร</h3>
+                <p class="text-lg mb-4 text-black-600 font-sarabun text-center">ปลาส้มทรงเครื่องสมุนไพรเป็นอาหารพื้นเมืองของจังหวัดอุบลราชธานีที่มีความโดดเด่นและเอกลักษณ์เฉพาะตัว โดยใช้เนื้อปลาบึกและปลาสวายจากแม่น้ำมูล แม่น้ำชี และแม่น้ำโขง ซึ่งเป็นปลาที่มีคุณค่าทางโภชนาการสูง เครื่องปรุงสมุนไพรที่ใช้ประกอบด้วยพริก หอม กระเทียม ขิง ข่า ตะไคร้ และใบมะกรูด ซึ่งมีสรรพคุณทางยาที่ช่วยในการเผาผลาญ ลดความดันโลหิต ลดระดับน้ำตาลและไขมันในเลือด และกระตุ้นระบบขับถ่าย ทำให้ปลาส้มมีรสชาติและกลิ่นที่เป็นเอกลักษณ์พร้อมประโยชน์ต่อสุขภาพ
+                </p>
+                <a href="/food2/" class="bg-gray-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-green-700 transition duration-300 ease-in-out font-sarabun">เรียนรู้เพิ่มเติม >> </a>
+            </div>
+        </div>
+        <!-- รายการที่ 3 -->
+        <div class="rounded-lg overflow-hidden bg-white flex flex-col items-center justify-between">
+            <div class="flex flex-col items-center px-6 py-8">
+                <img class="object-cover object-center w-48 h-48 rounded-full mb-4 mt-20" src="{% static 'image/card-04.jpg' %}" alt="หลนเค็มบักนัด">
+                <h3 class="text-2xl text-black-600 mb-4 font-mitr">หลนเค็มบักนัด</h3>
+                <p class="text-lg mb-4 text-black-600 font-sarabun text-center"> หลนเค็มบักนัดเป็นอาหารพื้นเมืองโบราณของจังหวัดอุบลราชธานีที่มีสรรพคุณต่อสุขภาพและถูกสืบทอดมารุ่นต่อรุ่น โดดเด่นด้วยการถนอมอาหารโดยวิธีดองเค็มเพื่อเก็บไว้ได้นาน วัตถุดิบหลักคือเนื้อปลาจากแม่น้ำมูล เช่น ปลาสวายติดหนัง และเกลือสินเธาว์ที่เป็นเกลือท้องถิ่น รวมทั้งหมากนัด (สับปะรด) จากสวนในจังหวัด การหมักดองอย่างละเอียดนี้ทำให้เกิดรสชาติที่เป็นเอกลักษณ์ตามแบบฉบับของชาวอุบลราชธานี</p>
+                <a href="/food3/" class="bg-gray-600 text-white py-2 px-4 rounded-lg text-lg hover:bg-yellow-700 transition duration-300 ease-in-out font-sarabun">เรียนรู้เพิ่มเติม >> </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
